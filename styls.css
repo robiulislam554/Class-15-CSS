@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.project{
+    margin-top: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero{
+    height: 450px;
+    color: white;
+    background-image: url('image/bg.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+
+.project-item{
+    float: left;
+    height: 200px;
+    width: 24.2%;
+    /* border: 1px solid blueviolet; */
+    margin-right: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+    
+}
+
+.project-footer{
+    margin: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-item{
+    float: left;
+    height: 250px;
+    width: 32.5%;
+    border: 1px solid blueviolet;
+    margin-right: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+.remove{
+    text-decoration: none;
+    color: rgba(135, 24, 24, 0.958);
+    font-size: 20px;
+}
+
+.size{
+    font-size: 20px;
+    color: rgba(135, 24, 24, 0.958);
+}
